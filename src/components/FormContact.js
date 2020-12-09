@@ -27,7 +27,7 @@ export const FormContact = () => {
     }
 
     return (
-        <div className="form_contact" id="form_contact">
+        <div className="form_contact">
 
             <div className="container">
 
