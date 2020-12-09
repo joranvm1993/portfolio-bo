@@ -2,7 +2,8 @@ import React from 'react'
 import {
     BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    Redirect
   } from "react-router-dom";
   
 import { ContactScreen } from '../ContactScreen';
@@ -23,6 +24,7 @@ export const AppRouter = () => {
           <Route exact path="/education" component={ EducationScreen } />
           <Route exact path="/projects" component={ ProjectScreen } />
           <Route exact path="/contact" component={ ContactScreen } />
+          <Redirect to="/" />
         </Switch>
       </div>
     </Router>
