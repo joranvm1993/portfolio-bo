@@ -14,7 +14,7 @@ export const LandingScreen = () => {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr />
-                            <p>HTML / CSS / Javascript / Bootstrap / ReactJs / NodeJs / Express / MySQL </p>
+                            <p>HTML / CSS / Javascript / Bootstrap / ReactJs / NodeJs / Express / MySQL /.Net Core </p>
                         </div>
                     </div>
                 </div>
