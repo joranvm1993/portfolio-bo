@@ -11,7 +11,7 @@ export const Button = () => {
                 target="_blank"
                 href={ cv }
             >
-                Obten Cv
+                Obten mi Cv
             </a>
         </div>
     )

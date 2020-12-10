@@ -71,3 +71,21 @@ export const FormContact = () => {
         </div>
     )
 }
+
+/* const [resetForm, setResetForm] = useState({
+    name: '',
+    email:'',
+    message: ''
+})
+
+    {
+        (loading = true) ? setResetForm({
+        name: '',
+        email:'',
+        message: ''
+        }) 
+        : null 
+    
+    }
+    
+*/

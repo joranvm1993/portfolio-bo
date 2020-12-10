@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Navegacion */
@@ -26,13 +27,13 @@ nav a:hover {
     color: white;
 }
 
+
 /* Landing page */
 
 .landing-grid {
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     height: 89.5vh;
     text-align: center;
 }
@@ -196,4 +197,107 @@ nav a:hover {
     
   }
 
-  
+  /* Educacion */
+
+  .img-education{
+    height: 200px; 
+    border-radius:100%;
+    margin-top: 20px;
+    
+  }
+
+.content-right{
+    height: 100%;
+}
+
+.content-1{
+    position: absolute;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.content-1 h3{
+    font-weight: bold;
+}
+
+.content-2{
+    position: absolute;
+    margin-top: 200px;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.content-2 h3{
+    font-weight: bold;
+}
+
+/* Proyectos */
+
+.card-content{
+    margin-top: 50px;
+}
+
+.content--2{
+    width: 90%;
+    margin: 50px auto;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.card{
+    width: 20%;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    
+}
+
+.card-header{
+    text-align: center;
+    padding: 50px 10px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+}
+
+.card-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body .btn-project{
+    
+    color: #ffffff;
+    text-align: center;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .card-content {
+        width: 100%;
+    }
+}
